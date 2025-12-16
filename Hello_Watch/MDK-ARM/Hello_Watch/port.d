@@ -1,0 +1,12 @@
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+hello_watch\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\port.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\port.o: ../Core/Inc/FreeRTOSConfig.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+hello_watch\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

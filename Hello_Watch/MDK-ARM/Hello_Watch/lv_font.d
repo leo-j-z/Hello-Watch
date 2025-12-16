@@ -1,0 +1,16 @@
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_font.c
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_font.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../lv_conf_internal.h
+hello_watch\lv_font.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../lv_conf_kconfig.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../../../lv_conf.h
+hello_watch\lv_font.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\lv_font.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_symbol_def.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_area.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_utils.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_log.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_types.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_assert.h
+hello_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_mem.h
+hello_watch\lv_font.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h

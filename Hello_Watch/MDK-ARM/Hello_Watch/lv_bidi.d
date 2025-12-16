@@ -1,0 +1,17 @@
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_bidi.c
+hello_watch\lv_bidi.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_bidi.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+hello_watch\lv_bidi.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../../../lv_conf.h
+hello_watch\lv_bidi.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_txt.h
+hello_watch\lv_bidi.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_area.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../font/lv_font.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../font/lv_symbol_def.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_printf.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h
+hello_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../misc/lv_mem.h
+hello_watch\lv_bidi.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,11 @@
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_ll.c
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_ll.h
+hello_watch\lv_ll.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\lv_ll.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\lv_ll.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_mem.h
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../../../lv_conf.h
+hello_watch\lv_ll.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+hello_watch\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h

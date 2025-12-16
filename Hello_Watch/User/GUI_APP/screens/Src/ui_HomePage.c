@@ -269,6 +269,7 @@ void ui_event_LightSlider(lv_event_t * e)
 
 void ui_HomePage_screen_init(void)
 {
+	    uint8_t value_strbuf[10];
     ui_HomePage = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_HomePage, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
@@ -345,7 +346,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_BatNumLabel, 0);
     lv_obj_set_y(ui_BatNumLabel, -4);
     lv_obj_set_align(ui_BatNumLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_BatNumLabel, "0%");
+    sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
+    lv_label_set_text(ui_BatNumLabel, value_strbuf);
     lv_obj_set_style_text_font(ui_BatNumLabel, &ui_font_CuYuan, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_HumiArc = lv_arc_create(ui_HomePage);
@@ -431,7 +433,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_TimeHourLabel, 8);
     lv_obj_set_y(ui_TimeHourLabel, -69);
     lv_obj_set_align(ui_TimeHourLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_TimeHourLabel, "11");
+    sprintf(value_strbuf,"%2d",ui_TimeHourValue);
+    lv_label_set_text(ui_TimeHourLabel, value_strbuf);
     lv_obj_set_style_text_font(ui_TimeHourLabel, &ui_font_uifontCuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_TimeColonLabel = lv_label_create(ui_HomePage);
@@ -451,7 +454,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_TimeMinuteLabel, 86);
     lv_obj_set_y(ui_TimeMinuteLabel, -68);
     lv_obj_set_align(ui_TimeMinuteLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_TimeMinuteLabel, "59");
+    sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
+    lv_label_set_text(ui_TimeMinuteLabel, value_strbuf);
     lv_obj_set_style_text_font(ui_TimeMinuteLabel, &ui_font_uifontCuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_DayLabel = lv_label_create(ui_HomePage);
@@ -460,7 +464,7 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_DayLabel, 80);
     lv_obj_set_y(ui_DayLabel, -113);
     lv_obj_set_align(ui_DayLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_DayLabel, "Sun.");
+    lv_label_set_text(ui_DayLabel, ui_Days[ui_DataWeekdayValue-1]);
     lv_obj_set_style_text_color(ui_DayLabel, lv_color_hex(0x10E4D3), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_DayLabel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_DayLabel, &lv_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -471,7 +475,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_DateLabel, 30);
     lv_obj_set_y(ui_DateLabel, -113);
     lv_obj_set_align(ui_DateLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_DateLabel, "6-23");
+    sprintf(value_strbuf,"%2d-%02d",ui_DateMonthValue,ui_DateDayValue);
+    lv_label_set_text(ui_DateLabel, value_strbuf);
     lv_obj_set_style_text_color(ui_DateLabel, lv_color_hex(0x10E4D3), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_DateLabel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_DateLabel, &lv_font_montserrat_16, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -482,7 +487,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_TempNumLabel, -77);
     lv_obj_set_y(ui_TempNumLabel, 119);
     lv_obj_set_align(ui_TempNumLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_TempNumLabel, "26");
+    sprintf(value_strbuf,"%d",ui_HomePageTempValue);
+    lv_label_set_text(ui_TempNumLabel, value_strbuf);
 
     ui_HumiNumLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_HumiNumLabel, LV_SIZE_CONTENT);   /// 1
@@ -490,7 +496,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_HumiNumLabel, 0);
     lv_obj_set_y(ui_HumiNumLabel, 119);
     lv_obj_set_align(ui_HumiNumLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_HumiNumLabel, "80");
+    sprintf(value_strbuf,"%d",ui_HomePageHumiValue);
+    lv_label_set_text(ui_HumiNumLabel, value_strbuf);
 
     ui_HRNumLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_HRNumLabel, LV_SIZE_CONTENT);   /// 1
@@ -498,7 +505,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_HRNumLabel, 76);
     lv_obj_set_y(ui_HRNumLabel, 119);
     lv_obj_set_align(ui_HRNumLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_HRNumLabel, "100");
+    sprintf(value_strbuf,"%d", HWInterface.HR_meter.HrRate);
+    lv_label_set_text(ui_HRNumLabel, value_strbuf);
 
     ui_StepNumLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_StepNumLabel, LV_SIZE_CONTENT);   /// 1
@@ -506,7 +514,8 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_x(ui_StepNumLabel, -85);
     lv_obj_set_y(ui_StepNumLabel, 15);
     lv_obj_set_align(ui_StepNumLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_StepNumLabel, "0");
+    sprintf(value_strbuf,"%d",ui_StepNumValue);
+    lv_label_set_text(ui_StepNumLabel, value_strbuf);
     lv_obj_set_style_text_font(ui_StepNumLabel, &lv_font_montserrat_18, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_DropDownPanel = lv_obj_create(ui_HomePage);

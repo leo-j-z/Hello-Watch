@@ -1,0 +1,12 @@
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_async.c
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_async.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h
+hello_watch\lv_async.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_mem.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../../../lv_conf.h
+hello_watch\lv_async.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\lv_async.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+hello_watch\lv_async.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_timer.h
+hello_watch\lv_async.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h

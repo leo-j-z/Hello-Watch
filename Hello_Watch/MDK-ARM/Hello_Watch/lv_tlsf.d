@@ -1,0 +1,13 @@
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_tlsf.c
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+hello_watch\lv_tlsf.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../../../lv_conf.h
+hello_watch\lv_tlsf.o: D:\Keil5\ARM\ARMCC\Bin\..\include\limits.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_tlsf.h
+hello_watch\lv_tlsf.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_mem.h
+hello_watch\lv_tlsf.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_log.h
+hello_watch\lv_tlsf.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_assert.h
