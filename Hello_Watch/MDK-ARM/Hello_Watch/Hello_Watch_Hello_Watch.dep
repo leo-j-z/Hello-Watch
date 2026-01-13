@@ -1,7 +1,7 @@
 Dependencies for Project 'Hello_Watch', Target 'Hello_Watch': (DO NOT MODIFY !)
 CompilerVersion: 5060528::V5.06 update 5 (build 528)::.\ARMCC
 F (startup_stm32f411xe.s)(0x6938F235)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32F411xE SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f411xe.lst --xref -o hello_watch\startup_stm32f411xe.o --depend hello_watch\startup_stm32f411xe.d)
-F (../Core/Src/main.c)(0x6939474E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\main.o --omf_browse hello_watch\main.crf --depend hello_watch\main.d)
+F (../Core/Src/main.c)(0x695CDF9F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\main.o --omf_browse hello_watch\main.crf --depend hello_watch\main.d)
 I (../Core/Inc/main.h)(0x68CEC7EF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x68CEC7E2)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x68CEC7EE)
@@ -57,7 +57,7 @@ I (../Core/Inc/spi.h)(0x68E76920)
 I (../Core/Inc/tim.h)(0x68E76879)
 I (../Core/Inc/usart.h)(0x68CEC7EE)
 I (../Core/Inc/gpio.h)(0x68CEC7E9)
-F (../Core/Src/gpio.c)(0x68CEC7E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\gpio.o --omf_browse hello_watch\gpio.crf --depend hello_watch\gpio.d)
+F (../Core/Src/gpio.c)(0x69612A7C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\gpio.o --omf_browse hello_watch\gpio.crf --depend hello_watch\gpio.d)
 I (../Core/Inc/gpio.h)(0x68CEC7E9)
 I (../Core/Inc/main.h)(0x68CEC7EF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x68CEC7E2)
@@ -1017,7 +1017,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x68CEC7E2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x68CEC7E2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x68CEC7E2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x68CEC7E2)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x68CEC7E1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\stm32f4xx_hal_cortex.o --omf_browse hello_watch\stm32f4xx_hal_cortex.crf --depend hello_watch\stm32f4xx_hal_cortex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x69613372)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\stm32f4xx_hal_cortex.o --omf_browse hello_watch\stm32f4xx_hal_cortex.crf --depend hello_watch\stm32f4xx_hal_cortex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x68CEC7E2)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x68CEC7EE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x68CEC7E2)
@@ -1711,7 +1711,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
 I (..\User\Tasks\Inc\user_ScrRenewTask.h)(0x68C6728D)
 I (..\User\Func\Inc\PageManager.h)(0x68C6728D)
-I (..\User\Func\Inc\../../GUI_App/ui.h)(0x6939AD0C)
+I (..\User\Func\Inc\../../GUI_App/ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -2027,7 +2027,7 @@ I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/sjpg/lv_sjpg.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/freetype/lv_freetype.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
-I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x695E26C5)
 I (..\User\GUI_APP\screens\Inc\../../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\screens\Inc\../../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -2282,7 +2282,7 @@ I (..\Middlewares\LVGL\GUI\lvgl\src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\porting\lv_port_disp.h)(0x69059BAD)
 I (..\Middlewares\LVGL\GUI\porting\lv_port_indev.h)(0x69059AF3)
-I (..\User\GUI_APP\ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\ui.h)(0x695E26C5)
 I (..\User\GUI_APP\ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -2303,7 +2303,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
 I (..\User\GUI_APP\screens\Inc\ui_HomePage.h)(0x68C6728D)
-I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -2518,7 +2518,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
 I (..\User\Tasks\Inc\user_MessageSendTask.h)(0x68C6728D)
-I (..\User\GUI_APP\ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -2676,7 +2676,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x68CEC7
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
-I (..\User\GUI_APP\ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -2875,7 +2875,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
 I (..\User\Tasks\Inc\user_ScrRenewTask.h)(0x68C6728D)
 I (..\User\Func\Inc\PageManager.h)(0x68C6728D)
-I (..\User\Func\Inc\../../GUI_App/ui.h)(0x6939AD0C)
+I (..\User\Func\Inc\../../GUI_App/ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -3053,7 +3053,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x68CEC7A0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68CEC7A0)
 I (..\User\Tasks\Inc\user_ScrRenewTask.h)(0x68C6728D)
 I (..\User\Func\Inc\PageManager.h)(0x68C6728D)
-I (..\User\Func\Inc\../../GUI_App/ui.h)(0x6939AD0C)
+I (..\User\Func\Inc\../../GUI_App/ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -3413,7 +3413,7 @@ I (..\Middlewares\LVGL\GUI\lvgl\src/extra/libs/freetype/lv_freetype.h)(0x68E7DE4
 I (..\Middlewares\LVGL\GUI\lvgl\src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
 I (..\User\GUI_APP\screens\Inc\ui_TimerPage.h)(0x68C6728D)
-I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Inc\../../ui.h)(0x695E26C5)
 I (..\User\GUI_APP\screens\Inc\../../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\screens\Inc\../../../Func/Inc/PageManager.h)(0x68C6728D)
 I (..\User\Tasks\Inc\user_HardwareInitTask.h)(0x68C6728D)
@@ -3481,7 +3481,7 @@ I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\Func\Src\PageManager.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\pagemanager.o --omf_browse hello_watch\pagemanager.crf --depend hello_watch\pagemanager.d)
 I (..\User\Func\Src\../Inc/PageManager.h)(0x68C6728D)
-I (..\User\Func\Src\../Inc/../../GUI_App/ui.h)(0x6939AD0C)
+I (..\User\Func\Src\../Inc/../../GUI_App/ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -3616,7 +3616,7 @@ I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (..\User\Func\Src\../Inc/StrCalculate.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 F (..\User\GUI_APP\screens\Src\ui_AboutPage.c)(0x69402C99)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_aboutpage.o --omf_browse hello_watch\ui_aboutpage.crf --depend hello_watch\ui_aboutpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -3745,7 +3745,7 @@ I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_AboutPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../../../version.h)(0x69402C33)
 F (..\User\GUI_APP\screens\Src\ui_CalendarPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_calendarpage.o --omf_browse hello_watch\ui_calendarpage.crf --depend hello_watch\ui_calendarpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -3924,7 +3924,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_ChargPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_chargpage.o --omf_browse hello_watch\ui_chargpage.crf --depend hello_watch\ui_chargpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4104,7 +4104,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_CompassPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_compasspage.o --omf_browse hello_watch\ui_compasspage.crf --depend hello_watch\ui_compasspage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4283,7 +4283,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_ComputerPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_computerpage.o --omf_browse hello_watch\ui_computerpage.crf --depend hello_watch\ui_computerpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4412,7 +4412,7 @@ I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_ComputerPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../../../Func/Inc/StrCalculate.h)(0x68C6728D)
 F (..\User\GUI_APP\screens\Src\ui_DateTimeSetPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_datetimesetpage.o --omf_browse hello_watch\ui_datetimesetpage.crf --depend hello_watch\ui_datetimesetpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4593,7 +4593,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_EnvPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_envpage.o --omf_browse hello_watch\ui_envpage.crf --depend hello_watch\ui_envpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4775,7 +4775,7 @@ F (..\User\GUI_APP\screens\Src\ui_Game2048Page.c)(0x68C6728D)(--c99 -c --cpu Cor
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -4956,7 +4956,7 @@ F (..\User\GUI_APP\screens\Src\ui_GameMemPage.c)(0x68C6728D)(--c99 -c --cpu Cort
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5134,7 +5134,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_GameSelectPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_gameselectpage.o --omf_browse hello_watch\ui_gameselectpage.crf --depend hello_watch\ui_gameselectpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5264,8 +5264,8 @@ I (..\User\GUI_APP\screens\Src\../Inc/ui_MenuPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_GameSelectPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_Game2048Page.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_GameMemPage.h)(0x68C6728D)
-F (..\User\GUI_APP\screens\Src\ui_HomePage.c)(0x694105BC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_homepage.o --omf_browse hello_watch\ui_homepage.crf --depend hello_watch\ui_homepage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+F (..\User\GUI_APP\screens\Src\ui_HomePage.c)(0x695E2DE2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_homepage.o --omf_browse hello_watch\ui_homepage.crf --depend hello_watch\ui_homepage.d)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5447,7 +5447,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_HRPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_hrpage.o --omf_browse hello_watch\ui_hrpage.crf --depend hello_watch\ui_hrpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5626,7 +5626,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_Megboxes.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_megboxes.o --omf_browse hello_watch\ui_megboxes.crf --depend hello_watch\ui_megboxes.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5753,7 +5753,7 @@ I (..\User\GUI_APP\screens\Src\../../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\screens\Src\../../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\screens\Src\ui_MenuPage.c)(0x693AE3A1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_menupage.o --omf_browse hello_watch\ui_menupage.crf --depend hello_watch\ui_menupage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -5894,7 +5894,7 @@ I (..\User\GUI_APP\screens\Src\../Inc/ui_GameSelectPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_SetPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_AboutPage.h)(0x68C6728D)
 F (..\User\GUI_APP\screens\Src\ui_NFCCardPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_nfccardpage.o --omf_browse hello_watch\ui_nfccardpage.crf --depend hello_watch\ui_nfccardpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6023,7 +6023,7 @@ I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_Megboxes.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_NFCCardPage.h)(0x68C6728D)
 F (..\User\GUI_APP\screens\Src\ui_OffTimePage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_offtimepage.o --omf_browse hello_watch\ui_offtimepage.crf --depend hello_watch\ui_offtimepage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6153,7 +6153,7 @@ I (..\User\GUI_APP\screens\Src\../Inc/ui_HomePage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_SetPage.h)(0x68C6728D)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_OffTimePage.h)(0x68C6728D)
 F (..\User\GUI_APP\screens\Src\ui_SetPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_setpage.o --omf_browse hello_watch\ui_setpage.crf --depend hello_watch\ui_setpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6336,7 +6336,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_SPO2Page.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_spo2page.o --omf_browse hello_watch\ui_spo2page.crf --depend hello_watch\ui_spo2page.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6515,7 +6515,7 @@ I (..\BSP\SPL06_001\SPL06_001.h)(0x68C6728C)
 I (..\BSP\LSM303DLH\LSM303.h)(0x68C6728C)
 I (..\BSP\EM7028\em70x8.h)(0x68C6728C)
 F (..\User\GUI_APP\screens\Src\ui_TimerPage.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_timerpage.o --omf_browse hello_watch\ui_timerpage.crf --depend hello_watch\ui_timerpage.d)
-I (..\User\GUI_APP\screens\Src\../../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\screens\Src\../../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6644,7 +6644,7 @@ I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\User\GUI_APP\screens\Src\../Inc/ui_TimerPage.h)(0x68C6728D)
 F (..\User\GUI_APP\ui_helpers.c)(0x69381EFE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_helpers.o --omf_browse hello_watch\ui_helpers.crf --depend hello_watch\ui_helpers.d)
 I (..\User\GUI_APP\ui_helpers.h)(0x692998DD)
-I (..\User\GUI_APP\ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6768,10 +6768,10 @@ I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/freetype/lv_freetype.h)(0x68E7DE4
 I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
 I (..\User\GUI_APP\../Func/Inc/PageManager.h)(0x68C6728D)
-I (..\User\GUI_APP\../Func/Inc/../../GUI_App/ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\../Func/Inc/../../GUI_App/ui.h)(0x695E26C5)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\ui.c)(0x6937F715)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui.o --omf_browse hello_watch\ui.crf --depend hello_watch\ui.d)
-I (..\User\GUI_APP\ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -6899,135 +6899,8 @@ I (..\User\GUI_APP\../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\User\GUI_APP\./Screens/Inc/ui_HomePage.h)(0x68C6728D)
 I (..\User\GUI_APP\./Screens/Inc/ui_MenuPage.h)(0x68C6728D)
-F (..\User\GUI_APP\fonts\ui_font_CuYuan.c)(0x6908C677)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan.o --omf_browse hello_watch\ui_font_cuyuan.crf --depend hello_watch\ui_font_cuyuan.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
-I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
-I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_kconfig.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../../../lv_conf.h)(0x69383FD2)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_types.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_timer.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_math.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_mem.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
-I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_async.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim_timeline.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_printf.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_disp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_font.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_symbol_def.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/../misc/lv_area.h)(0x68E91817)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_color.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_assert.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_bidi.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style_gen.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_decoder.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_buf.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_fs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_cache.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_rect.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_gradient.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_dither.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/../../core/lv_obj_pos.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_triangle.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_arc.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_mask.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../misc/lv_ll.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_indev.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_tick.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_tree.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_scroll.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style_gen.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_class.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_event.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_group.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_indev.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_refr.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_disp.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_theme.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_loader.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_fmt_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_arc.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_table.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_checkbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_bar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_slider.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btnmatrix.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_roller.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_textarea.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_canvas.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_switch.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/lv_api_map.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/../lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/lv_extra.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/lv_widgets.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/lv_animimg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/../../../lvgl.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/chart/lv_chart.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/keyboard/lv_keyboard.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/lv_list.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/../../layouts/flex/lv_flex.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/menu/lv_menu.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/msgbox/lv_msgbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/meter/lv_meter.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinbox/lv_spinbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinner/lv_spinner.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tabview/lv_tabview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tileview/lv_tileview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/win/lv_win.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/led/lv_led.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/span/lv_span.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/lv_layouts.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/grid/lv_grid.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/lv_themes.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/default/lv_theme_default.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/mono/lv_theme_mono.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/basic/lv_theme_basic.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/lv_others.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/snapshot/lv_snapshot.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/monkey/lv_monkey.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/gridnav/lv_gridnav.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/lv_libs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/bmp/lv_bmp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/fsdrv/lv_fsdrv.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/png/lv_png.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/gif/lv_gif.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/qrcode/lv_qrcode.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/sjpg/lv_sjpg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/freetype/lv_freetype.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
-I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
-I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
-I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan18.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan18.o --omf_browse hello_watch\ui_font_cuyuan18.crf --depend hello_watch\ui_font_cuyuan18.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7154,7 +7027,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan20.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan20.o --omf_browse hello_watch\ui_font_cuyuan20.crf --depend hello_watch\ui_font_cuyuan20.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7281,7 +7154,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan24.c)(0x6939AA70)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan24.o --omf_browse hello_watch\ui_font_cuyuan24.crf --depend hello_watch\ui_font_cuyuan24.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7408,7 +7281,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan30.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan30.o --omf_browse hello_watch\ui_font_cuyuan30.crf --depend hello_watch\ui_font_cuyuan30.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7535,7 +7408,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan38.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan38.o --omf_browse hello_watch\ui_font_cuyuan38.crf --depend hello_watch\ui_font_cuyuan38.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7662,7 +7535,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan48.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan48.o --omf_browse hello_watch\ui_font_cuyuan48.crf --depend hello_watch\ui_font_cuyuan48.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7789,7 +7662,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan80.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan80.o --omf_browse hello_watch\ui_font_cuyuan80.crf --depend hello_watch\ui_font_cuyuan80.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -7916,7 +7789,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_Cuyuan100.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan100.o --omf_browse hello_watch\ui_font_cuyuan100.crf --depend hello_watch\ui_font_cuyuan100.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8043,7 +7916,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_fonticonfont34.c)(0x6922DFEB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_fonticonfont34.o --omf_browse hello_watch\ui_font_fonticonfont34.crf --depend hello_watch\ui_font_fonticonfont34.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8170,7 +8043,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont16.c)(0x690B7519)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont16.o --omf_browse hello_watch\ui_font_iconfont16.crf --depend hello_watch\ui_font_iconfont16.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8297,7 +8170,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont24.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont24.o --omf_browse hello_watch\ui_font_iconfont24.crf --depend hello_watch\ui_font_iconfont24.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8424,7 +8297,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont28.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont28.o --omf_browse hello_watch\ui_font_iconfont28.crf --depend hello_watch\ui_font_iconfont28.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8551,7 +8424,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont30.c)(0x6939AA70)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont30.o --omf_browse hello_watch\ui_font_iconfont30.crf --depend hello_watch\ui_font_iconfont30.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8678,7 +8551,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont32.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont32.o --omf_browse hello_watch\ui_font_iconfont32.crf --depend hello_watch\ui_font_iconfont32.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8805,7 +8678,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont34.c)(0x6939AA70)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont34.o --omf_browse hello_watch\ui_font_iconfont34.crf --depend hello_watch\ui_font_iconfont34.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -8932,7 +8805,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont45.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont45.o --omf_browse hello_watch\ui_font_iconfont45.crf --depend hello_watch\ui_font_iconfont45.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9059,134 +8932,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_lvfontmontserrat20.c)(0x691054CB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_lvfontmontserrat20.o --omf_browse hello_watch\ui_font_lvfontmontserrat20.crf --depend hello_watch\ui_font_lvfontmontserrat20.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
-I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
-I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_kconfig.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../../../lv_conf.h)(0x69383FD2)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_types.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_timer.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_math.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_mem.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
-I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_async.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim_timeline.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_printf.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_disp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_font.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_symbol_def.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/../misc/lv_area.h)(0x68E91817)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_color.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_assert.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_bidi.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style_gen.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_decoder.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_buf.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_fs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_cache.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_rect.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_gradient.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_dither.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/../../core/lv_obj_pos.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_triangle.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_arc.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_mask.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../misc/lv_ll.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_indev.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_tick.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_tree.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_scroll.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style_gen.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_class.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_event.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_group.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_indev.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_refr.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_disp.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_theme.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_loader.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_fmt_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_arc.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_table.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_checkbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_bar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_slider.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btnmatrix.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_roller.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_textarea.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_canvas.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_switch.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/lv_api_map.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/../lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/lv_extra.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/lv_widgets.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/lv_animimg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/../../../lvgl.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/chart/lv_chart.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/keyboard/lv_keyboard.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/lv_list.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/../../layouts/flex/lv_flex.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/menu/lv_menu.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/msgbox/lv_msgbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/meter/lv_meter.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinbox/lv_spinbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinner/lv_spinner.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tabview/lv_tabview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tileview/lv_tileview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/win/lv_win.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/led/lv_led.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/span/lv_span.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/lv_layouts.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/grid/lv_grid.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/lv_themes.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/default/lv_theme_default.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/mono/lv_theme_mono.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/basic/lv_theme_basic.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/lv_others.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/snapshot/lv_snapshot.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/monkey/lv_monkey.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/gridnav/lv_gridnav.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/lv_libs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/bmp/lv_bmp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/fsdrv/lv_fsdrv.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/png/lv_png.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/gif/lv_gif.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/qrcode/lv_qrcode.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/sjpg/lv_sjpg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/freetype/lv_freetype.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
-I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
-I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
-I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\User\GUI_APP\fonts\ui_font_uifontCuyuan48.c)(0x69104A4F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_uifontcuyuan48.o --omf_browse hello_watch\ui_font_uifontcuyuan48.crf --depend hello_watch\ui_font_uifontcuyuan48.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9313,7 +9059,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\IMGs\ui_img_compass_needle_png.c)(0x68C6728D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_img_compass_needle_png.o --omf_browse hello_watch\ui_img_compass_needle_png.crf --depend hello_watch\ui_img_compass_needle_png.d)
-I (..\User\GUI_APP\IMGs\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\IMGs\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9440,7 +9186,7 @@ I (..\User\GUI_APP\IMGs\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\IMGs\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont31.c)(0x6939A642)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont31.o --omf_browse hello_watch\ui_font_iconfont31.crf --depend hello_watch\ui_font_iconfont31.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9567,7 +9313,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont25.c)(0x6939A642)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont25.o --omf_browse hello_watch\ui_font_iconfont25.crf --depend hello_watch\ui_font_iconfont25.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9694,7 +9440,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont29.c)(0x6939A680)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont29.o --omf_browse hello_watch\ui_font_iconfont29.crf --depend hello_watch\ui_font_iconfont29.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -9821,134 +9567,7 @@ I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
 I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
 I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\User\GUI_APP\fonts\ui_font_iconfont33.c)(0x6939A643)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_iconfont33.o --omf_browse hello_watch\ui_font_iconfont33.crf --depend hello_watch\ui_font_iconfont33.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
-I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
-I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_kconfig.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../../../lv_conf.h)(0x69383FD2)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_types.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_timer.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_math.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_mem.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
-I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_async.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim_timeline.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_anim.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_printf.h)(0x68E7DE49)
-I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_disp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_font.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/lv_symbol_def.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/../font/../misc/lv_area.h)(0x68E91817)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_color.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_assert.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_bidi.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_style_gen.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_decoder.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_buf.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/../misc/lv_fs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_img_cache.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_rect.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_gradient.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/lv_draw_sw_dither.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/sw/../../core/lv_obj_pos.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_triangle.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_arc.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../draw/lv_draw_mask.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/../misc/lv_ll.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_indev.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/hal/lv_hal_tick.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_tree.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_scroll.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_style_gen.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_draw.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_obj_class.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_event.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_group.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_indev.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_refr.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_disp.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/core/lv_theme.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_loader.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/font/lv_font_fmt_txt.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_arc.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_img.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_label.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_line.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_table.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_checkbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_bar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_slider.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_btnmatrix.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_roller.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_textarea.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_canvas.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/widgets/lv_switch.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/lv_api_map.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/../lvgl.h)(0x68E7DE46)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/lv_extra.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/lv_widgets.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/lv_animimg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/animimg/../../../lvgl.h)(0x68E7DE48)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/chart/lv_chart.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/keyboard/lv_keyboard.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/lv_list.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/list/../../layouts/flex/lv_flex.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/menu/lv_menu.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/msgbox/lv_msgbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/meter/lv_meter.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinbox/lv_spinbox.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/spinner/lv_spinner.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tabview/lv_tabview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/tileview/lv_tileview.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/win/lv_win.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/led/lv_led.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/widgets/span/lv_span.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/lv_layouts.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/layouts/grid/lv_grid.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/lv_themes.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/default/lv_theme_default.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/mono/lv_theme_mono.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/themes/basic/lv_theme_basic.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/lv_others.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/snapshot/lv_snapshot.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/monkey/lv_monkey.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/others/gridnav/lv_gridnav.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/lv_libs.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/bmp/lv_bmp.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/fsdrv/lv_fsdrv.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/png/lv_png.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/gif/lv_gif.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/qrcode/lv_qrcode.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/sjpg/lv_sjpg.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/freetype/lv_freetype.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/rlottie/lv_rlottie.h)(0x68E7DE49)
-I (..\Middlewares\LVGL\GUI\lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x68E7DE49)
-I (..\User\GUI_APP\fonts\../ui_helpers.h)(0x692998DD)
-I (..\User\GUI_APP\fonts\../../Func/Inc/PageManager.h)(0x68C6728D)
-I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\User\GUI_APP\fonts\ui_font_Cuyuan21.c)(0x6939AA71)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\ui_font_cuyuan21.o --omf_browse hello_watch\ui_font_cuyuan21.crf --depend hello_watch\ui_font_cuyuan21.d)
-I (..\User\GUI_APP\fonts\../ui.h)(0x6939AD0C)
+I (..\User\GUI_APP\fonts\../ui.h)(0x695E26C5)
 I (..\Middlewares\LVGL\GUI\lvgl/lvgl.h)(0x68E7DE46)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/lv_log.h)(0x68E7DE49)
 I (..\Middlewares\LVGL\GUI\lvgl/src/misc/../lv_conf_internal.h)(0x68E7DE48)
@@ -10114,7 +9733,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x68CEC7E2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x68CEC7E2)
 I (..\SYSTEM\delay.h)(0x68C6728D)
 I (..\SYSTEM\sys.h)(0x68C6728D)
-F (..\BSP\TOUCH\CST816.c)(0x69383037)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\cst816.o --omf_browse hello_watch\cst816.crf --depend hello_watch\cst816.d)
+F (..\BSP\TOUCH\CST816.c)(0x69628641)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\SYSTEM -I ..\BSP\AHT21 -I ..\BSP\BL24C02 -I ..\BSP\EM7028 -I ..\BSP\IIC -I ..\BSP\KEY -I ..\BSP\KT6328 -I ..\BSP\LCD -I ..\BSP\LSM303DLH -I ..\BSP\MPU6050 -I ..\BSP\OWDG -I ..\BSP\POWER -I ..\BSP\SPL06_001 -I ..\BSP\TOUCH -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\lvgl\src -I ..\Middlewares\LVGL\GUI\lvgl -I ..\Middlewares\LVGL\GUI\porting -I ..\Middlewares\LVGL\GUI\lvgl -I ..\User\Func\Inc -I ..\User\Tasks\Inc -I ..\User\GUI_APP -I ..\User\GUI_APP\screens\Inc -I ..\BSP\MPU6050\eMPL -I ..\Middlewares\LVGL\GUI -I ..\User --locale=english-I.\RTE\_Hello_Watch-ID:\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F411xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F411xE-o hello_watch\cst816.o --omf_browse hello_watch\cst816.crf --depend hello_watch\cst816.d)
 I (..\BSP\TOUCH\CST816.h)(0x69383072)
 I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\BSP\IIC\iic_hal.h)(0x68E76792)

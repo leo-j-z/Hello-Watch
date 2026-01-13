@@ -73,16 +73,15 @@ extern "C" {
 //extern lv_obj_t * ui_PowerDownLabel;
 //extern lv_obj_t * ui____initial_actions0;
 
-LV_FONT_DECLARE(ui_font_CuYuan);
+//LV_FONT_DECLARE(ui_font_CuYuan);
 LV_FONT_DECLARE(ui_font_Cuyuan20);
-LV_FONT_DECLARE(ui_font_Cuyuan21);
+//LV_FONT_DECLARE(ui_font_Cuyuan21);
 LV_FONT_DECLARE(ui_font_fonticonfont34);
 LV_FONT_DECLARE(ui_font_iconfont16);
 LV_FONT_DECLARE(ui_font_iconfont24);
 LV_FONT_DECLARE(ui_font_iconfont28);
 LV_FONT_DECLARE(ui_font_iconfont30);
 LV_FONT_DECLARE(ui_font_iconfont32);
-LV_FONT_DECLARE(ui_font_uifontCuyuan48);
 LV_FONT_DECLARE(ui_font_Cuyuan18);
 LV_FONT_DECLARE(ui_font_Cuyuan24);
 LV_FONT_DECLARE(ui_font_Cuyuan30);

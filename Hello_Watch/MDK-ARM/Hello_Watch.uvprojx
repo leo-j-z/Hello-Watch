@@ -80,7 +80,7 @@
             <nStopB2X>0</nStopB2X>
           </BeforeMake>
           <AfterMake>
-            <RunUserProg1>0</RunUserProg1>
+            <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
             <UserProg1Name>fromelf.exe --bin -o "$L@L.bin" "#L</UserProg1Name>
             <UserProg2Name></UserProg2Name>
@@ -276,7 +276,7 @@
               </OCR_RVCT3>
               <OCR_RVCT4>
                 <Type>1</Type>
-                <StartAddress>0x8000000</StartAddress>
+                <StartAddress>0x800c000</StartAddress>
                 <Size>0x74000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
@@ -835,11 +835,6 @@
           <GroupName>Application/User/GUI_FONT_IMG</GroupName>
           <Files>
             <File>
-              <FileName>ui_font_CuYuan.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\User\GUI_APP\fonts\ui_font_CuYuan.c</FilePath>
-            </File>
-            <File>
               <FileName>ui_font_Cuyuan18.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\GUI_APP\fonts\ui_font_Cuyuan18.c</FilePath>
@@ -925,11 +920,6 @@
               <FilePath>..\User\GUI_APP\fonts\ui_font_lvfontmontserrat20.c</FilePath>
             </File>
             <File>
-              <FileName>ui_font_uifontCuyuan48.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\User\GUI_APP\fonts\ui_font_uifontCuyuan48.c</FilePath>
-            </File>
-            <File>
               <FileName>ui_img_compass_needle_png.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\GUI_APP\IMGs\ui_img_compass_needle_png.c</FilePath>
@@ -953,11 +943,6 @@
               <FileName>ui_font_iconfont33.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\GUI_APP\fonts\ui_font_iconfont33.c</FilePath>
-            </File>
-            <File>
-              <FileName>ui_font_Cuyuan21.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\User\GUI_APP\fonts\ui_font_Cuyuan21.c</FilePath>
             </File>
           </Files>
         </Group>

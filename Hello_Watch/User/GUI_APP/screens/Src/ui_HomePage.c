@@ -282,7 +282,7 @@ void ui_HomePage_screen_init(void)
     lv_label_set_text(ui_StepCnLabel, "今日步数");
     lv_obj_set_style_text_color(ui_StepCnLabel, lv_color_hex(0x3656FC), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_StepCnLabel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui_StepCnLabel, &ui_font_CuYuan, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_StepCnLabel, &ui_font_Cuyuan18, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_HRArc = lv_arc_create(ui_HomePage);
     lv_obj_set_width(ui_HRArc, 47);
@@ -348,7 +348,7 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_align(ui_BatNumLabel, LV_ALIGN_CENTER);
     sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
     lv_label_set_text(ui_BatNumLabel, value_strbuf);
-    lv_obj_set_style_text_font(ui_BatNumLabel, &ui_font_CuYuan, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_BatNumLabel, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_HumiArc = lv_arc_create(ui_HomePage);
     lv_obj_set_width(ui_HumiArc, 47);
@@ -435,7 +435,7 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_align(ui_TimeHourLabel, LV_ALIGN_CENTER);
     sprintf(value_strbuf,"%2d",ui_TimeHourValue);
     lv_label_set_text(ui_TimeHourLabel, value_strbuf);
-    lv_obj_set_style_text_font(ui_TimeHourLabel, &ui_font_uifontCuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_TimeHourLabel, &ui_font_Cuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_TimeColonLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_TimeColonLabel, LV_SIZE_CONTENT);   /// 1
@@ -446,7 +446,7 @@ void ui_HomePage_screen_init(void)
     lv_label_set_text(ui_TimeColonLabel, ":");
     lv_obj_set_style_text_color(ui_TimeColonLabel, lv_color_hex(0x808080), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_TimeColonLabel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui_TimeColonLabel, &ui_font_uifontCuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_TimeColonLabel, &ui_font_Cuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_TimeMinuteLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_TimeMinuteLabel, LV_SIZE_CONTENT);   /// 1
@@ -456,7 +456,7 @@ void ui_HomePage_screen_init(void)
     lv_obj_set_align(ui_TimeMinuteLabel, LV_ALIGN_CENTER);
     sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
     lv_label_set_text(ui_TimeMinuteLabel, value_strbuf);
-    lv_obj_set_style_text_font(ui_TimeMinuteLabel, &ui_font_uifontCuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_TimeMinuteLabel, &ui_font_Cuyuan48, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_DayLabel = lv_label_create(ui_HomePage);
     lv_obj_set_width(ui_DayLabel, LV_SIZE_CONTENT);   /// 1
@@ -707,7 +707,7 @@ void ui_PowerPage_screen_init(void)
     lv_label_set_text(ui_PowerDownLabel, "滑动关机");
     lv_obj_set_style_text_color(ui_PowerDownLabel, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_PowerDownLabel, 200, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui_PowerDownLabel, &ui_font_Cuyuan21, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui_PowerDownLabel, &ui_font_Cuyuan20, LV_PART_MAIN | LV_STATE_DEFAULT);
 
 		//events
 		lv_obj_add_event_cb(ui_PowerSlider, ui_event_PowerSlider, LV_EVENT_ALL, NULL);
